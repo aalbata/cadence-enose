@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the letter below."
+title: "CADENCE: label-free drift alarms with certified false-alarm control"
+authors:
+  - family-names: "Al Bataineh"
+    given-names: "Ali"
+repository-code: "https://github.com/aalbata/cadence-enose"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Certified Label-Free Drift Alarms From Empty Conformal Prediction Sets for Metal-Oxide Gas Sensor Arrays"
+  authors:
+    - family-names: "Al Bataineh"
+      given-names: "Ali"
+  year: 2026
+  journal: "IEEE Sensors Letters"
+  status: submitted

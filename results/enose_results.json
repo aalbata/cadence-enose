@@ -1,0 +1,383 @@
+{
+ "source": "W\u00f6rner, Eimler and Pein-Hackelbusch, Sci. Data 12:1628 (2025); Zenodo 10.5281/zenodo.15681119; extracted_features.csv",
+ "n_samples": 624,
+ "n_features": 252,
+ "n_sensors": 62,
+ "n_classes": 5,
+ "classes": [
+  "Diacetyl 0.1ppm",
+  "Diacetyl 1ppm",
+  "EtOH",
+  "Phenylethanol 1000ppm",
+  "Phenylethanol 200ppm"
+ ],
+ "n_days": 36,
+ "first_date": "2024-02-16",
+ "last_date": "2025-02-05",
+ "span_days": 355,
+ "install_days": 6,
+ "install_samples": 108,
+ "n_cal": 32,
+ "alpha": 0.1,
+ "delta": 0.001,
+ "budget": 3,
+ "W": 18,
+ "k_crit": 9,
+ "eval_days": 30,
+ "seeds": 10,
+ "install_acc_mean": 0.9,
+ "pmax_cal_mean": 0.8774626262200153,
+ "pmax_post_mean": 0.9217796173336256,
+ "static_acc_mean": 0.49659673442026386,
+ "static_acc_per_seed": [
+  0.5053939524527761,
+  0.5106880700998349,
+  0.4789389259977495,
+  0.49941822882999354,
+  0.46216332686920925,
+  0.5215092532739591,
+  0.5211824558883383,
+  0.4470808494337906,
+  0.46681941152529394,
+  0.5527728698316935
+ ],
+ "alarm_days_per_seed": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "alarm_days_median": 0.0,
+ "alarm_days_min": 0,
+ "alarm_days_max": 0,
+ "first_alarm_day_per_seed": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "first_alarm_day_median": null,
+ "per_day_seed0": [
+  {
+   "day": 6,
+   "W": 18,
+   "k": 9,
+   "empties": 3,
+   "alarm": false,
+   "acc": 0.8333333333333334
+  },
+  {
+   "day": 7,
+   "W": 18,
+   "k": 9,
+   "empties": 0,
+   "alarm": false,
+   "acc": 0.8333333333333334
+  },
+  {
+   "day": 8,
+   "W": 18,
+   "k": 9,
+   "empties": 2,
+   "alarm": false,
+   "acc": 0.8333333333333334
+  },
+  {
+   "day": 9,
+   "W": 18,
+   "k": 9,
+   "empties": 5,
+   "alarm": false,
+   "acc": 0.5
+  },
+  {
+   "day": 10,
+   "W": 17,
+   "k": 9,
+   "empties": 2,
+   "alarm": false,
+   "acc": 0.7058823529411765
+  },
+  {
+   "day": 11,
+   "W": 18,
+   "k": 9,
+   "empties": 6,
+   "alarm": false,
+   "acc": 0.7777777777777778
+  },
+  {
+   "day": 12,
+   "W": 18,
+   "k": 9,
+   "empties": 0,
+   "alarm": false,
+   "acc": 0.3333333333333333
+  },
+  {
+   "day": 13,
+   "W": 18,
+   "k": 9,
+   "empties": 5,
+   "alarm": false,
+   "acc": 0.5555555555555556
+  },
+  {
+   "day": 14,
+   "W": 18,
+   "k": 9,
+   "empties": 3,
+   "alarm": false,
+   "acc": 0.5555555555555556
+  },
+  {
+   "day": 15,
+   "W": 18,
+   "k": 9,
+   "empties": 0,
+   "alarm": false,
+   "acc": 0.6111111111111112
+  },
+  {
+   "day": 16,
+   "W": 18,
+   "k": 9,
+   "empties": 3,
+   "alarm": false,
+   "acc": 0.6666666666666666
+  },
+  {
+   "day": 17,
+   "W": 18,
+   "k": 9,
+   "empties": 0,
+   "alarm": false,
+   "acc": 0.5
+  },
+  {
+   "day": 18,
+   "W": 18,
+   "k": 9,
+   "empties": 0,
+   "alarm": false,
+   "acc": 0.2777777777777778
+  },
+  {
+   "day": 19,
+   "W": 18,
+   "k": 9,
+   "empties": 0,
+   "alarm": false,
+   "acc": 0.5
+  },
+  {
+   "day": 20,
+   "W": 18,
+   "k": 9,
+   "empties": 0,
+   "alarm": false,
+   "acc": 0.3333333333333333
+  },
+  {
+   "day": 21,
+   "W": 18,
+   "k": 9,
+   "empties": 1,
+   "alarm": false,
+   "acc": 0.3888888888888889
+  },
+  {
+   "day": 22,
+   "W": 18,
+   "k": 9,
+   "empties": 0,
+   "alarm": false,
+   "acc": 0.3333333333333333
+  },
+  {
+   "day": 23,
+   "W": 18,
+   "k": 9,
+   "empties": 1,
+   "alarm": false,
+   "acc": 0.3888888888888889
+  },
+  {
+   "day": 24,
+   "W": 14,
+   "k": 8,
+   "empties": 1,
+   "alarm": false,
+   "acc": 0.35714285714285715
+  },
+  {
+   "day": 25,
+   "W": 5,
+   "k": 5,
+   "empties": 0,
+   "alarm": false,
+   "acc": 0.0
+  },
+  {
+   "day": 26,
+   "W": 13,
+   "k": 8,
+   "empties": 0,
+   "alarm": false,
+   "acc": 0.46153846153846156
+  },
+  {
+   "day": 27,
+   "W": 18,
+   "k": 9,
+   "empties": 3,
+   "alarm": false,
+   "acc": 0.5
+  },
+  {
+   "day": 28,
+   "W": 18,
+   "k": 9,
+   "empties": 5,
+   "alarm": false,
+   "acc": 0.5555555555555556
+  },
+  {
+   "day": 29,
+   "W": 18,
+   "k": 9,
+   "empties": 3,
+   "alarm": false,
+   "acc": 0.4444444444444444
+  },
+  {
+   "day": 30,
+   "W": 18,
+   "k": 9,
+   "empties": 1,
+   "alarm": false,
+   "acc": 0.4444444444444444
+  },
+  {
+   "day": 31,
+   "W": 18,
+   "k": 9,
+   "empties": 4,
+   "alarm": false,
+   "acc": 0.4444444444444444
+  },
+  {
+   "day": 32,
+   "W": 17,
+   "k": 9,
+   "empties": 0,
+   "alarm": false,
+   "acc": 0.47058823529411764
+  },
+  {
+   "day": 33,
+   "W": 18,
+   "k": 9,
+   "empties": 0,
+   "alarm": false,
+   "acc": 0.5
+  },
+  {
+   "day": 34,
+   "W": 18,
+   "k": 9,
+   "empties": 2,
+   "alarm": false,
+   "acc": 0.5
+  },
+  {
+   "day": 35,
+   "W": 18,
+   "k": 9,
+   "empties": 2,
+   "alarm": false,
+   "acc": 0.5555555555555556
+  }
+ ],
+ "ctl_alarms": 2,
+ "ctl_windows": 5000,
+ "ctl_streams": 50,
+ "ctl_union_bound": 0.1,
+ "fm": {
+  "t2": {
+   "alarm_days_median": 20.5,
+   "alarm_days_min": 18,
+   "alarm_days_max": 26,
+   "first_alarm_day_median": 5.0,
+   "ctl_alarms": 4,
+   "ctl_windows": 5000
+  },
+  "spe": {
+   "alarm_days_median": 29.0,
+   "alarm_days_min": 26,
+   "alarm_days_max": 30,
+   "first_alarm_day_median": 2.0,
+   "ctl_alarms": 421,
+   "ctl_windows": 5000
+  }
+ },
+ "loop_acc_mean": 0.49659673442026386,
+ "loop_acc_per_seed": [
+  0.5053939524527761,
+  0.5106880700998349,
+  0.4789389259977495,
+  0.49941822882999354,
+  0.46216332686920925,
+  0.5215092532739591,
+  0.5211824558883383,
+  0.4470808494337906,
+  0.46681941152529394,
+  0.5527728698316935
+ ],
+ "loop_labels_mean": 0.0,
+ "loop_alarms_mean": 0.0,
+ "loop_acc_per_day_seed0": [
+  0.8333333333333334,
+  0.8333333333333334,
+  0.8333333333333334,
+  0.5,
+  0.7058823529411765,
+  0.7777777777777778,
+  0.3333333333333333,
+  0.5555555555555556,
+  0.5555555555555556,
+  0.6111111111111112,
+  0.6666666666666666,
+  0.5,
+  0.2777777777777778,
+  0.5,
+  0.3333333333333333,
+  0.3888888888888889,
+  0.3333333333333333,
+  0.3888888888888889,
+  0.35714285714285715,
+  0.0,
+  0.46153846153846156,
+  0.5,
+  0.5555555555555556,
+  0.4444444444444444,
+  0.4444444444444444,
+  0.4444444444444444,
+  0.47058823529411764,
+  0.5,
+  0.5,
+  0.5555555555555556
+ ]
+}
