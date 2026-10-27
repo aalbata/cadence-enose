@@ -2,7 +2,7 @@
 
 Code and results for the letter "Certified Label-Free Drift Alarms From
 Empty Conformal Prediction Sets for Metal-Oxide Gas Sensor Arrays"
-(submitted to IEEE Sensors Letters). Repository: https://github.com/aalbata/cadence-enose
+(accepted for publication in IEEE Sensors Letters). Repository: https://github.com/aalbata/cadence-enose
 
 A gas classifier can lose accuracy under drift while remaining confident.
 CADENCE monitors the number of empty conformal prediction sets over

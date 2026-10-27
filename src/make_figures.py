@@ -57,7 +57,7 @@ for i, b in enumerate(bounds[:-1]):
             va="bottom", fontsize=6.0)
 ax.set_xlim(-1, len(allc))
 ax.set_ylim(0, 84)
-ax.set_yticks([0, 15, 30, 45])
+ax.set_yticks([0, 25, 50])
 ax.set_xlabel(f"window index, batches 2 to 10 (W = {W})")
 ax.set_ylabel("empty sets\nper window")
 ax.legend(loc="lower left", bbox_to_anchor=(0.0, 1.01), ncol=2,
